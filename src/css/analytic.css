@@ -1,0 +1,94 @@
+.section {
+	padding-top: 50px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.title {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.subtitle {
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.cardAnalytic {
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	margin-bottom: 1.5rem;
+}
+
+.cardAnalytic-content {
+	padding: 1rem;
+}
+
+.has-text-centered {
+	text-align: center;
+}
+
+.blink {
+	animation: blink 1s linear infinite;
+}
+
+.content {
+	font-size: 0.8rem;
+	font-weight: normal;
+	color: #999;
+}
+
+.grid-container {
+	padding-top: 45px;
+	display: grid;
+	grid-template-columns: 250px 750px;
+	grid-template-rows: repeat(40px, 20px);
+	gap: 15px;
+}
+
+.card-grid {
+	background-color: #fff;
+	/* border: 1px solid #ccc; */
+	padding: 8%;
+	-webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+}
+
+.item2 {
+	width: 100%;
+}
+
+.item1 {
+	background-color: #1e90ff;
+}
+
+.item3 {
+	background-color: #1e90ff;
+}
+
+.item5 {
+	background-color: #1e90ff;
+}
+
+.item7 {
+	background-color: #1e90ff;
+}
+
+.title-grid {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 0px;
+	color: #fff;
+}
+
+.valuegas {
+	font-size: 70px;
+	color: #fff;
+	text-align: center;
+}
+
+.satuan {
+	font-size: 30px;
+	position: relative;
+}

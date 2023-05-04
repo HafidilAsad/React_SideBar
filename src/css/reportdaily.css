@@ -1,0 +1,65 @@
+.dailytable1 {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 90%;
+	padding-top: 10px;
+	/* justify-items: center; */
+	/* justify-content: left; */
+}
+
+.tablereport {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 80%;
+	padding-top: 10px;
+	margin-top: 10px;
+	/* justify-content: left; */
+}
+
+.tablereport th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	width: 15px;
+	text-align: center;
+}
+
+.tablereport td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	width: 30px;
+	text-align: center;
+}
+
+.tablereport tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.tablereport tr:hover {
+	background-color: #ddd;
+}
+
+.tablereport th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #505a56;
+	color: white;
+}
+
+.date1 {
+	align-items: right;
+}
+
+.inputdate {
+	height: 30%;
+}
+
+.datetitle {
+	font-size: 30px;
+}
+
+.dailyheader {
+	text-align: left;
+	justify-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
